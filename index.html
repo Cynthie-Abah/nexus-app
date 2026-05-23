@@ -51,9 +51,38 @@
           Get Started
         </button>
 
-        <button class="md:hidden text-3xl">
-          <i class="fa-solid fa-bars"></i>
-        </button>
+        <div class="relative inline-block group">
+          <button class="md:hidden text-3xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <nav
+            class="absolute right-0 top-full mt-2 w-48 rounded-lg bg-dark-blue shadow-lg opacity-0 invisible translate-y-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0"
+          >
+            <ul class="py-2">
+              <li>
+                <a href="#home" class="block px-4 py-2 hover:bg-gray-100/10"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="block px-4 py-2 hover:bg-gray-100/10"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="block px-4 py-2 hover:bg-gray-100/10"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="block px-4 py-2 hover:bg-gray-100/10"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
